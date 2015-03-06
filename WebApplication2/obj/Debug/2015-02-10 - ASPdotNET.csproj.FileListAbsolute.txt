@@ -1,4 +1,0 @@
-F:\Faculdade\Nilton\2015-02-10 - ASPdotNET\2015-02-10 - ASPdotNET\bin\2015-02-10 - ASPdotNET.dll
-F:\Faculdade\Nilton\2015-02-10 - ASPdotNET\2015-02-10 - ASPdotNET\bin\2015-02-10 - ASPdotNET.pdb
-F:\Faculdade\Nilton\2015-02-10 - ASPdotNET\2015-02-10 - ASPdotNET\obj\Debug\2015-02-10 - ASPdotNET.dll
-F:\Faculdade\Nilton\2015-02-10 - ASPdotNET\2015-02-10 - ASPdotNET\obj\Debug\2015-02-10 - ASPdotNET.pdb
