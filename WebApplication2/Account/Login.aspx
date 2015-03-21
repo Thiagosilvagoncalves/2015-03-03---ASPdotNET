@@ -15,26 +15,26 @@
     <asp:Login ID="LoginUser" runat="server" EnableViewState="false" 
         RenderOuterTable="false" style="text-align: justify">
         <LayoutTemplate>
-            <span class="failureNotification">
+            <span class="NotificaçãoFalha">
                 <asp:Literal ID="FailureText" runat="server"></asp:Literal>
             </span>
-            <asp:ValidationSummary ID="LoginUserValidationSummary" runat="server"  CssClass="failureNotification" 
+            <asp:ValidationSummary ID="LoginUserValidationSummary" runat="server"  CssClass="NotificaçãoFalha" 
                  ValidationGroup="LoginUserValidationGroup" DisplayMode="List"/>
-            <div class="accountInfo">
+            <div class="InfoConta">
                 <fieldset class="login">
                     <legend>Informações da Conta</legend>
                     <p>
                         <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Usuário:</asp:Label>
-                        <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
+                        <asp:TextBox ID="UserName" runat="server" CssClass="Texto"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" 
-                             CssClass="failureNotification" ErrorMessage="Usuário é Obrigatório." ToolTip="Usuário é Obrigatório." 
+                             CssClass="NotificaçãoFalha" ErrorMessage="Usuário é Obrigatório." ToolTip="Usuário é Obrigatório." 
                              ValidationGroup="LoginUserValidationGroup">*</asp:RequiredFieldValidator>
                     </p>
                     <p>
                         <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Senha:</asp:Label>
-                        <asp:TextBox ID="Password" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="Password" runat="server" CssClass="Senha" TextMode="Password"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" 
-                             CssClass="failureNotification" ErrorMessage="Senha é Obrigatório." ToolTip="Senha é Obrigatório." 
+                             CssClass="NotificaçãoFalha" ErrorMessage="Senha é Obrigatório." ToolTip="Senha é Obrigatório." 
                              ValidationGroup="LoginUserValidationGroup">*</asp:RequiredFieldValidator>
                     </p>
                     <p>
@@ -42,7 +42,7 @@
                         <asp:Label ID="RememberMeLabel" runat="server" AssociatedControlID="RememberMe" CssClass="inline">Continuar Conectado</asp:Label>
                     </p>
                 </fieldset>
-                <p class="submitButton">
+                <p class="BotãoAvançar">
                     <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Entrar" ValidationGroup="LoginUserValidationGroup"/>
                 </p>
             </div>

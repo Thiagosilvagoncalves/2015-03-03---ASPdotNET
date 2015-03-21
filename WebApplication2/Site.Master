@@ -10,14 +10,14 @@
 </head>
 <body>
     <form runat="server">
-    <div class="page">
-        <div class="header">
+    <div class="Página">
+        <div class="Cabeçalho">
             <div class="title">
                 <h1>
                     Sistema Aluno Integrado
                 </h1>
             </div>
-            <div class="loginDisplay">
+            <div class="DisplayLabelEntrar">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
                         [<a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Entrar</a>]
@@ -35,19 +35,19 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Início"/>
                         <asp:MenuItem NavigateUrl="~/About/About.aspx" Text="Sobre"/>
                         <asp:MenuItem NavigateUrl="~/About/Contact.aspx" Text="Contato"/>
-                        <asp:MenuItem NavigateUrl="~/WebForm2.aspx" Text="Teste PF e PJ"/>
                     </Items>
                 </asp:Menu>
             </div>
         </div>
-        <div class="main">
+        <div class="Conteúdo">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
         </div>
+
         <div class="clear">
         </div>
     </div>
-    <div class="footer">
-        
+    <div class="Rodapé">
+                &copy; 2015 Sistema Aluno Integrado - Todos os direitos reservados.        
     </div>
     </form>
 </body>

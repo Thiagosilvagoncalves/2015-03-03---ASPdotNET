@@ -22,3 +22,14 @@ F:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\bin\SistemaAlunoInteg
 F:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\bin\SistemaAlunoIntegrado.pdb
 F:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.dll
 F:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.pdb
+F:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.csprojResolveAssemblyReference.cache
+E:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\bin\SistemaAlunoIntegrado.dll
+E:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\bin\SistemaAlunoIntegrado.pdb
+E:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.csprojResolveAssemblyReference.cache
+E:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.dll
+E:\Faculdade\Nilton\2015-03-03 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.pdb
+E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\bin\SistemaAlunoIntegrado.dll
+E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\bin\SistemaAlunoIntegrado.pdb
+E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.csprojResolveAssemblyReference.cache
+E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.dll
+E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.pdb

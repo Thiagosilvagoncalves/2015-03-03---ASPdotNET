@@ -16,40 +16,40 @@
     <asp:ChangePassword ID="ChangeUserPassword" runat="server" CancelDestinationPageUrl="~/" EnableViewState="false" RenderOuterTable="false" 
          SuccessPageUrl="ChangePasswordSuccess.aspx">
         <ChangePasswordTemplate>
-            <span class="failureNotification">
+            <span class="NotificaçãoFalha">
                 <asp:Literal ID="FailureText" runat="server"></asp:Literal>
             </span>
-            <asp:ValidationSummary ID="ChangeUserPasswordValidationSummary" runat="server" CssClass="failureNotification" 
+            <asp:ValidationSummary ID="ChangeUserPasswordValidationSummary" runat="server" CssClass="NotificaçãoFalha" 
                  ValidationGroup="ChangeUserPasswordValidationGroup" DisplayMode="List"/>
-            <div class="accountInfo">
+            <div class="InfoConta">
                 <fieldset class="changePassword">
                     <legend>Alterar Senha</legend>
                     <p>
                         <asp:Label ID="CurrentPasswordLabel" runat="server" AssociatedControlID="CurrentPassword">Senha Antiga:</asp:Label>
-                        <asp:TextBox ID="CurrentPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="CurrentPassword" runat="server" CssClass="Senha" TextMode="Password"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="CurrentPasswordRequired" runat="server" ControlToValidate="CurrentPassword" 
-                             CssClass="failureNotification" ErrorMessage="Senha Antiga é Obrigatória." ToolTip="Senha Antiga é Obrigatória." 
+                             CssClass="NotificaçãoFalha" ErrorMessage="Senha Antiga é Obrigatória." ToolTip="Senha Antiga é Obrigatória." 
                              ValidationGroup="ChangeUserPasswordValidationGroup">*</asp:RequiredFieldValidator>
                     </p>
                     <p>
                         <asp:Label ID="NewPasswordLabel" runat="server" AssociatedControlID="NewPassword">Nova Senha:</asp:Label>
-                        <asp:TextBox ID="NewPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="NewPassword" runat="server" CssClass="Senha" TextMode="Password"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="NewPasswordRequired" runat="server" ControlToValidate="NewPassword" 
-                             CssClass="failureNotification" ErrorMessage="Nova Senha é Obrigatória." ToolTip="Nova Senha é Obrigatória." 
+                             CssClass="NotificaçãoFalha" ErrorMessage="Nova Senha é Obrigatória." ToolTip="Nova Senha é Obrigatória." 
                              ValidationGroup="ChangeUserPasswordValidationGroup">*</asp:RequiredFieldValidator>
                     </p>
                     <p>
                         <asp:Label ID="ConfirmNewPasswordLabel" runat="server" AssociatedControlID="ConfirmNewPassword">Confirmar Nova Senha:</asp:Label>
-                        <asp:TextBox ID="ConfirmNewPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="ConfirmNewPassword" runat="server" CssClass="Senha" TextMode="Password"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="ConfirmNewPasswordRequired" runat="server" ControlToValidate="ConfirmNewPassword" 
-                             CssClass="failureNotification" Display="Dynamic" ErrorMessage="Confirmação de Nova Senha Obrigatória."
+                             CssClass="NotificaçãoFalha" Display="Dynamic" ErrorMessage="Confirmação de Nova Senha Obrigatória."
                              ToolTip="Confirmação de Nova Senha Obrigatória." ValidationGroup="ChangeUserPasswordValidationGroup">*</asp:RequiredFieldValidator>
                         <asp:CompareValidator ID="NewPasswordCompare" runat="server" ControlToCompare="NewPassword" ControlToValidate="ConfirmNewPassword" 
-                             CssClass="failureNotification" Display="Dynamic" ErrorMessage="Senhas não coincidem. Tente novamente."
+                             CssClass="NotificaçãoFalha" Display="Dynamic" ErrorMessage="Senhas não coincidem. Tente novamente."
                              ValidationGroup="ChangeUserPasswordValidationGroup">*</asp:CompareValidator>
                     </p>
                 </fieldset>
-                <p class="submitButton">
+                <p class="BotãoAvançar">
                     <asp:Button ID="CancelPushButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancelar"/>
                     <asp:Button ID="ChangePasswordPushButton" runat="server" CommandName="ChangePassword" Text="Alterar Senha" 
                          ValidationGroup="ChangeUserPasswordValidationGroup"/>
