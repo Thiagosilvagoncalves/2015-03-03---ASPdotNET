@@ -33,3 +33,8 @@ E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\bin\SistemaAlunoInteg
 E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.csprojResolveAssemblyReference.cache
 E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.dll
 E:\Faculdade\Nilton\2015-03-10 - ASPdotNET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.pdb
+C:\Users\INTEL\Documents\Visual Studio 2010\Projects\TCM- ASP.NET\WebApplication2\bin\SistemaAlunoIntegrado.dll
+C:\Users\INTEL\Documents\Visual Studio 2010\Projects\TCM- ASP.NET\WebApplication2\bin\SistemaAlunoIntegrado.pdb
+C:\Users\INTEL\Documents\Visual Studio 2010\Projects\TCM- ASP.NET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.csprojResolveAssemblyReference.cache
+C:\Users\INTEL\Documents\Visual Studio 2010\Projects\TCM- ASP.NET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.dll
+C:\Users\INTEL\Documents\Visual Studio 2010\Projects\TCM- ASP.NET\WebApplication2\obj\Debug\SistemaAlunoIntegrado.pdb
